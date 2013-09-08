@@ -1,0 +1,40 @@
+{
+	"name": "Caelum",
+	"description": "This free star chart application enables you to easily identify stars and constellations on the sky by detecting your location and showing you the currently visible astronomical objects. By tapping a star, besides basic data (name, magnitude, distance) listed, you can directly access the Wikipedia article about the star when available. Outlines and boundaries of the 88 standard constellations are given according to the International Astronomical Union, while coordinates, magnitude and distance data of the more than 15000 stars shown on this interactive star map are from the Hipparcos catalog.",
+	"launch_path": "/",
+	"icons": {
+		"16": "/img/caelum16.png",
+		"30": "/img/caelum30.png",
+		"32": "/img/caelum32.png",
+		"60": "/img/caelum60.png",
+		"48": "/img/caelum48.png",
+		"64": "/img/caelum64.png",
+		"128": "/img/caelum128.png",
+		"256": "/img/caelum256.png"
+	},
+	"developer": {
+		"name": "Bence Ágg",
+		"url": "http://suopte.com/en/"
+	},
+	"default_locale": "en",
+	"version": "1.0",
+	"permissions": {
+		"geolocation": {
+			"description": "Required to set the optimal position of the sky map."
+		},
+		"storage": {
+			"description": "Required to store components of the application to be also available for offline usage."
+		}
+	},
+	"appcache_path": "/caelum.appcache",
+	"fullscreen": "true",
+	"locales": {
+		"hu": {
+			"description": "Ingyenes csillagtérkép alkalmazás, mely automatikusan felismerve a felhasználó földrajzi koordinátáit lehetővé teszi a csillagok és a csillagképek egyszerű azonosítását. A csillagokat megérintve a kilistázott alapvető adatok (név, fényrend, távolság) mellett az alkalmazás, amennyiben létezik a csillagról szóló Wikipedia cikk, ahhoz direkt elérést biztosít. A 88 standard csillagkép körvonalát és határait a Nemzetközi Csillagászati Unió által közzétett adatok alapján jeleníti meg a program, míg a több mint 15000 csillag koordinátái, fényrendje és távolság adatai a Hipparcos katalógusból származnak.",
+			"developer": {
+				"name": "Ágg Bence",
+				"url": "http://suopte.com"
+			}
+		}
+	}
+}
